@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    animation: backgroundAnimation 1s infinite;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% { background-color: #f7e334; }
+    50% { background-color: #ffeeaa; }
+    100% { background-color: #f2f2f2; }
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .formulari {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .formulari label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formulari input[type="text"],
+  .formulari input[type="number"],
+  .formulari select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .formulari input[type="checkbox"] {
+    margin-top: 5px;
+  }
+  
+  .formulari input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formulari input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .formulari input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+  }
